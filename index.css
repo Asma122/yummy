@@ -1,0 +1,198 @@
+@charset "UTF-8";
+ 
+body{
+	 background-color:#ffffff;
+	 -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     overflow: hidden;
+     margin: 0;
+}
+
+img{
+	max-width: 100%;
+   height: auto;
+   padding-bottom: 30px;
+}
+h1{
+	padding: 0;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 150px;
+    padding: 20px;
+    
+
+}
+h2{
+ font-size:70px;
+	font-family: 'Cookie', cursive;
+}
+h3,
+h4,
+h5{
+	
+	font-size:50px;
+	font-family: 'Cookie', cursive;
+}
+
+
+pre{
+	
+	font-siz:35px;
+	font-family: 'Comic Neue', cursive;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+
+
+div.gallery:hover {
+  border:5px;
+  opacity:1;
+}
+
+div.gallery img {
+ 
+  width: 100%;
+  height: 100%;
+ 
+}
+
+div.desc {
+	font-size:38px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Comic Neue', cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding-left:  40px;
+  float: left ;
+  width: 24.99999%;
+ 
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-bottom: 20px;
+}
+
+
+.wrapper{
+  position: fixed;
+ left:80%
+  transform: translate(-50%, -50%);
+}
+
+.as{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+a span{
+  position: relative;
+  z-index: 2;
+}
+
+.as:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background:#F5DEB3;
+  transition: all .35s;
+}
+
+
+.as:hover:after{
+  width: 100%;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 15%;
+  background-color: white;
+  padding: 10px;
+}
+
+/* Main column */
+.main {  
+	font-size:35px;
+  flex: 85%;
+  background-color:#FFEBCD;
+  padding: 20px;
+}
+/*background color of the text*/
+.bg{
+	font-size:35px;
+padding: 20px;
+background-color: white;
+}
+
+.gg{
+	
+	 background-color: #fff2e6;
+}
+.gf{
+	font-size:28px;
+	 background-color: #fff2e6;
+}
+.me{
+	background-color: white;
+	float: left ;
+    width: 32%;
+    text-align:center;
+    margin-right: 20px;
+}
+
+footer{
+	background-color:#fff2e6;
+	padding:40px;
+	text-align:center;
+	font-size:30px;
+	
+} 
